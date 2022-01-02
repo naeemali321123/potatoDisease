@@ -24,6 +24,7 @@ body {
     grid-template-rows: auto;
 }
 #logoImage{
+    width: 100%;
     height: 10vh;
 }
 
