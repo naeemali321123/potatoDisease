@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat-Regular;
+}
+
+body {
+    background: linear-gradient(to right, rgb(93, 224, 181), rgb(36, 223, 145));
+}
+
+#container {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+#logoImage{
+    height: 10vh;
+}
+
+#headingContainer {
+    padding: 50px;
+}
+
+#heading>p {
+    padding: 30px 0px;
+    font-size: 18px;
+}
+
+#userImage {
+    width: 260px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .50);
+}
+
+#userImage img {
+    width: 200px;
+    height: 220px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .50);
+}
+
+#button {
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .50);
+}
+
+#button:hover {
+    color: white;
+    background-color: green;
+}
+
+#resultScreen {
+    margin-top: 20px;
+}
+#browseFile{
+    padding: 30px 0px;
+    text-align: center;
+}
+#browseFile>form input{
+    font-size: 24px;
+    border-radius: 10px;
+}
